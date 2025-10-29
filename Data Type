@@ -1,0 +1,24 @@
+Name = "Mg Mg"  # String
+Age = 25        # Integer
+Grade = 88.9    # Float
+Result = True   # Boolean
+
+print("The data type of ")
+print(Name)
+print('within Name varible is ')
+print(type(Name))
+
+print("\nThe data type of ")
+print(Age)
+print('within Age varible is ')
+print(type(Age))
+
+print("\nThe data type of ")
+print(Grade)
+print('within Grade varible is ')
+print(type(Grade))
+
+print("\nThe data type of ")
+print(Result)
+print('with Result variable is ')
+print(type(Result))
