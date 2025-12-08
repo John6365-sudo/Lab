@@ -1,0 +1,12 @@
+# mini project - self intro app
+# getting input from user
+name = input("Enter your name: ")
+age = input("Enter your age: ")
+city = input("Enter your city: ")
+
+# output
+print("---Your Info---")
+print("Your name is:", name)
+print("Your age is: ", age)
+print("you live in ", city)
+print("Your Info is correct or not ?")
