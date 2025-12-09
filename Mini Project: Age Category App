@@ -1,0 +1,14 @@
+# Mini Project: Age Category App
+
+age = int(input("Enter your age :"))
+print("---Age Category Result---")
+if age < 0:
+    print("Ivalid age! Please enter a positive number.")
+elif age <= 12:
+    print("Category : Kid")
+elif age <= 19:
+    print("Category : Teen")
+elif age <= 59:
+    print("Category : Adult")
+else:
+    print("Category : Senior")
