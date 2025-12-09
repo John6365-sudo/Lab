@@ -1,0 +1,8 @@
+correct_name = "admin"
+correct_pwd = "1234"
+username = input("Username :")
+password = input("Password :")
+if correct_name == username and correct_pwd == password:
+    print("Login Successful")
+else:
+    print("Invalid Login")
