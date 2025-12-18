@@ -1,0 +1,10 @@
+#Mini Project:Loop Based Number Game
+import random
+secrect = random.randint(1, 10)
+while True:
+    guess = int(input("Guess a number 1-10 : "))
+    if guess == secrect:
+        print("Correct! You Win!!!")
+        breaka
+    else:
+        print("Wrong! Try Again!")
